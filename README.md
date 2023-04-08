@@ -1,5 +1,10 @@
 ## ForkIT
 
+# FrontEnd
+
+# Stack 
+NextJS TailwindCSS 
+
 # ГИС-Хакатон-2023
 
 ## Участники
