@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<>
 			<Head>
-				<title>Hello</title>
+				<title>ClimaCast</title>
 			</Head>
 			<MainLayout>
 				<Main />

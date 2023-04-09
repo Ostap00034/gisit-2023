@@ -29,9 +29,6 @@ const Main = () => {
 				src='https://yandex.ru/map-widget/v1/?um=constructor%3Ab2c5c43368e9558729d552e66ed6cbff374afddd2735bf4b466e393fe212dbfe&amp;source=constructor'
 				width='100%'
 				height='960'></iframe>
-			<button className='absolute z-50 font-inter text-[50px]'>
-				Подробнее
-			</button>
 			{/* <YMaps
 				query={{
 					apikey: '94f23962-10ba-474b-bb61-a9401d31753e',
