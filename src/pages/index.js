@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import MainLayout from '@/components/layouts/MainLayout'
+import Main from '@/components/screens/Main/Main'
+import SignUp from '@/components/screens/SignUp/SignUp'
+import SignIn from '@/components/screens/SignIn/SignIn'
 
 const Home = () => {
 	return (
@@ -6,7 +10,11 @@ const Home = () => {
 			<Head>
 				<title>Hello</title>
 			</Head>
-			<main className='flex min-h-screen flex-col items-center justify-between p-24'></main>
+			<MainLayout>
+				<Main />
+				{/* <SignUp /> */}
+				{/* <SignUp /> */}
+			</MainLayout>
 		</>
 	)
 }
